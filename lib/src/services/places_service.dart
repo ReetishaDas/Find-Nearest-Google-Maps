@@ -5,7 +5,7 @@ import 'dart:convert' as convert;
 import 'package:places_autocomplete/src/models/place_search.dart';
 
 class PlacesService {
-  final key = 'AIzaSyBpO4M6eY7lAApI8d-mKgVVnrwDbsfBd9g';
+  final key = 'FILL_YOUR_KEY';
 
   Future<List<PlaceSearch>> getAutocomplete(String search) async {
     var url =

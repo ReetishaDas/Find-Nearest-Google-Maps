@@ -1,18 +1,13 @@
-# Google Places Autocomplete
-
-A Flutter Application utilizing Google Maps, Places Autocomplete, and Geolocator
+# Find Nearest Places
+A Flutter Application utilizing Google Maps and Geolocator.
 
 ## Getting Started
 
-You will need to have a Google project, enable the Android SDK, IOS SDK, and Places API in your GCloud Console.
+I created a Google project, enabled the Android SDK, IOS SDK, and Places API in my Google Cloud Console and enabled billing for google maps services in the project.
 
-Obtain an API key and replace the YOUR_KEY placeholders in 
+Obtain an API key and replace the FILL_YOUR_API_KEY placeholders in 
 - ios/Runner/AppDelegate.swift
 - android/app/src/main/AndroidManifest.xml
 - lib/services/places_service.dart
 
-## Video
-- Part 1 https://youtu.be/sL74UNLssV8
-- Part 2 https://youtu.be/1LzcInQPwlU
-- Part 3 https://youtu.be/1UJJGb86_1g
-- Part 4 https://youtu.be/H7-3n738iRg
+
